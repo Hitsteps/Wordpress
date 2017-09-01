@@ -1,4 +1,4 @@
-# Wordpress plugin for Hitsteps
+# Hitsteps Plugin for WordPress
 This plugin is officially published through https://wordpress.org/plugins/hitsteps-visitor-manager/
 It allows WordPress users to install [Hitsteps Web Analytics](https://www.hitsteps.com/) functions easily to WordPress sites.
 
