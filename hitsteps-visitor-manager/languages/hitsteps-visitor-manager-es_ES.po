@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Hitsteps\n"
+"Language: es\n"
+
+#: api.payload.php:42
+msgid "Hitstep's webserver down at moment. connection couldn't established."
+msgstr "El servidor web de Hitstep está abajo en este momento. la conexión no pudo establecerse."
+
+#: api.payload.php:57
+msgid "You need to install hitsteps API code in setting menu."
+msgstr "Necesita instalar el código de la API hitsteps en el menú de configuración."
+
+#: api.payload.php:92
+msgid "PC"
+msgstr "ordenador personal"
+
+#: api.payload.php:93
+msgid "Phone"
+msgstr "Teléfono"
+
+#: api.payload.php:94
+msgid "Tablet"
+msgstr "Tableta"
+
+#: api.payload.php:96 api.payload.php:201
+msgid "Name"
+msgstr "Nombre"
+
+#: api.payload.php:96 api.payload.php:137 api.payload.php:201
+#: api.payload.php:242
+msgid "From"
+msgstr "De"
+
+#: api.payload.php:96 api.payload.php:201
+msgid "Org/ISP"
+msgstr "Org / ISP"
+
+#: api.payload.php:96 api.payload.php:201
+msgid "Device"
+msgstr "Dispositivo"
+
+#: api.payload.php:96 api.payload.php:201
+msgid "IP"
+msgstr "IP"
+
+#: api.payload.php:107 api.payload.php:212
+msgid "First visited"
+msgstr "Primera visita"
+
+#: api.payload.php:107
+msgid "from"
+msgstr "de"
+
+#: api.payload.php:107 api.payload.php:212
+msgid "landed on"
+msgstr "aterrizado en"
+
+#: api.payload.php:122 api.payload.php:227
+msgid "Recent pageviews are"
+msgstr "Las páginas vistas recientes son"
+
+#: api.payload.php:122 api.payload.php:227
+msgid "pages, result in spending"
+msgstr "páginas, resultan en gastos"
+
+#: api.payload.php:122 api.payload.php:227
+msgid "minutes"
+msgstr "minutos"
+
+#: api.payload.php:134
+msgid "Direct"
+msgstr "Directo"
+
+#: api.payload.php:137
+msgid "To"
+msgstr "A"
+
+#: api.payload.php:137 api.payload.php:242
+msgid "visited"
+msgstr "visitó"
+
+#: api.payload.php:151 api.payload.php:256
+msgid "Know more about this visitor"
+msgstr "Sepa más sobre este visitante"
+
+#: api.payload.php:192
+msgid "Hitsteps: You can hide this column"
+msgstr "Hitsteps: puedes ocultar esta columna"
+
+#: api.payload.php:223
+msgid "more than 50"
+msgstr "mas de 50"
+
+#: api.payload.php:224
+msgid "more than"
+msgstr "mas que"
+
+#: hitsteps.php:38
+msgid "Hitsteps tracking code not shown because you're an administrator and you've configured Hitsteps plugin to ignore administrators."
+msgstr "El código de seguimiento de Hitsteps no se muestra porque eres un administrador y has configurado el complemento Hitsteps para ignorar a los administradores."
+
+#: hitsteps.php:346
+msgid "Hitsteps Options"
+msgstr "Opciones de Hitsteps"
+
+#: hitsteps.php:346
+msgid "Hitsteps"
+msgstr "Hitsteps"
+
+#: hitsteps.php:398 init.cf7.php:75 init.ninjaform.php:212
+msgid "Hitsteps Analytics"
+msgstr "Hitsteps Analytics"
+
+#: hitsteps.php:447
+msgid "Hitsteps Analytics is almost ready."
+msgstr "Hitsteps Analytics está casi listo."
+
+#: hitsteps.php:447
+msgid "You must <a href=\"%1$s\">enter your hitsteps API key</a> to start tracking your stats."
+msgstr "Debes <a href=\"%1$s\"> ingresar tu clave de API hitsteps </a> para comenzar a rastrear tus estadísticas."
+
+#: hitsteps.php:647 hitsteps.php:670
+msgid "Cannot find your website address"
+msgstr "No se puede encontrar la dirección de su sitio web"
+
+#: hitsteps.php:648 hitsteps.php:671
+msgid "Cannot find your website name"
+msgstr "No se puede encontrar el nombre de su sitio web"
+
+#: hitsteps.php:649
+msgid "Email cannot be empty"
+msgstr "El correo electrónico no puede estar vacío"
+
+#: hitsteps.php:650
+msgid "Password cannot be empty"
+msgstr "La contraseña no puede estar vacía"
+
+#: hitsteps.php:651
+msgid "Nickname cannot be empty"
+msgstr "El apodo no puede estar vacío"
+
+#: hitsteps.php:764
+msgid "Hitsteps plugin setting have been saved."
+msgstr "La configuración del complemento Hitsteps se ha guardado."
+
+#: hitsteps.php:764
+msgid "We have started tracking your visitors."
+msgstr "Hemos comenzado a rastrear a sus visitantes."
+
+#: hitsteps.php:764
+msgid "Please get your hitsteps API code to enable us to start tracking your site visitors, for you."
+msgstr "Obtenga su código de API hitsteps para que podamos comenzar a rastrear a los visitantes de su sitio, para usted."
+
+#: hitsteps.php:799
+msgid "Hitsteps - Ultimate Realtime Web Analytics"
+msgstr "Hitsteps - Ultimate Realtime Web Analytics"
+
+#: hitsteps.php:816
+msgid "Click here to open your Hitsteps dashboard."
+msgstr "Haga clic aquí para abrir su panel Hitsteps."
+
+#: hitsteps.php:881
+msgid "Hitsteps Auto Registration"
+msgstr "Registro automático de Hitsteps"
+
+#: hitsteps.php:901
+msgid "Already a hitsteps user? Login here."
+msgstr "¿Ya eres un usuario exitoso? Entre aquí."
+
+#: hitsteps.php:904 hitsteps.php:941
+msgid "Email"
+msgstr "Email"
+
+#: hitsteps.php:905 hitsteps.php:942
+msgid "Password"
+msgstr "Contraseña"
+
+#: hitsteps.php:906
+msgid "Nickname"
+msgstr "Apodo"
+
+#: hitsteps.php:907
+msgid "How did you heard about Hitsteps"
+msgstr "¿Cómo se enteró de Hitsteps?"
+
+#: hitsteps.php:925
+msgid "Sign-up and get this website's API key automatically from hitsteps servers. by clicking this button, you agree <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\">hitsteps's terms.</a>."
+msgstr "Regístrese y obtenga la clave de API de este sitio web automáticamente desde los servidores hitsteps. al hacer clic en este botón, acepta los <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\"> términos de hitsteps </a>."
+
+#: hitsteps.php:938
+msgid "New hitsteps user? Sign up here."
+msgstr "Nuevo usuario hitsteps? Registrate aquí."
+
+#: hitsteps.php:953
+msgid "Login & API Key Installation"
+msgstr "Instalación de clave de inicio de sesión e API"
+
+#: hitsteps.php:995
+msgid "Hitsteps API Code"
+msgstr "Código API de Hitsteps"
+
+#: hitsteps.php:1008
+msgid "Get your API Key"
+msgstr "Obtén tu clave de API"
+
+#: hitsteps.php:1012
+msgid "You can use quick auto registration form above to get your API key. Alternatively you can manually enter your API key here."
+msgstr "Puede usar el formulario de registro automático rápido arriba para obtener su clave API. Alternativamente, puede ingresar manualmente su clave API aquí."
+
+#: hitsteps.php:1013
+msgid "Register a hitsteps account if you haven't and add your website to your account"
+msgstr "Registre una cuenta hitsteps si no lo ha hecho y agregue su sitio web a su cuenta"
+
+#: hitsteps.php:1013
+msgid "Go to your user homepage on Hitsteps and click \"Settings\" under the name of the domain, you will find the API Key under Tracking code. Each website has its own API Code. It looks like this 3defb4a2e4426642ea..."
+msgstr "Vaya a la página de inicio de su usuario en Hitsteps y haga clic en \"Configuración\" debajo del nombre del dominio, encontrará la clave de la API en el código de seguimiento. Cada sitio web tiene su propio código API. Parece que este 3defb4a2e4426642ea ..."
+
+#: hitsteps.php:1027
+msgid "Advanced Settings"
+msgstr "Ajustes avanzados"
+
+#: hitsteps.php:1037 hitsteps.php:1045 hitsteps.php:1051 hitsteps.php:1057
+#: hitsteps.php:1064 hitsteps.php:1070 hitsteps.php:1076 hitsteps.php:1082
+#: hitsteps.php:1092 hitsteps.php:1097 hitsteps.php:1105 hitsteps.php:2073
+#: hitsteps.php:2075 hitsteps.php:2077 hitsteps.php:2079 hitsteps.php:2081
+#: hitsteps.php:2083 hitsteps.php:2086 hitsteps.php:2088 hitsteps.php:2090
+#: hitsteps.php:2092 hitsteps.php:2094 hitsteps.php:2097 hitsteps.php:2099
+#: hitsteps.php:2102
+msgid "Yes"
+msgstr "Sí"
+
+#: hitsteps.php:1039 hitsteps.php:1047 hitsteps.php:1053 hitsteps.php:1059
+#: hitsteps.php:1066 hitsteps.php:1072 hitsteps.php:1078 hitsteps.php:1084
+#: hitsteps.php:1093 hitsteps.php:1099 hitsteps.php:1107 hitsteps.php:2074
+#: hitsteps.php:2076 hitsteps.php:2078 hitsteps.php:2080 hitsteps.php:2082
+#: hitsteps.php:2084 hitsteps.php:2087 hitsteps.php:2089 hitsteps.php:2091
+#: hitsteps.php:2093 hitsteps.php:2095 hitsteps.php:2098 hitsteps.php:2100
+#: hitsteps.php:2103
+msgid "No"
+msgstr "No"
+
+#: hitsteps.php:1039
+msgid "Show Hitsteps quick summary in Wordpress dashboard?"
+msgstr "¿Mostrar resumen rápido de Hitsteps en el tablero de Wordpress?"
+
+#: hitsteps.php:1047
+msgid "Enable Dashboard widget for administrators only ( recommended for security )"
+msgstr "Habilitar widget de Dashboard solo para administradores (recomendado para seguridad)"
+
+#: hitsteps.php:1053
+msgid "Track visitors name ( using name they enter when commenting )?"
+msgstr "Seguir el nombre de los visitantes (usando el nombre que ingresan al comentar)"
+
+#: hitsteps.php:1059
+msgid "Ignore admin visits? (Don't put tracking code for admin)"
+msgstr "Ignorar las visitas de administrador? (No coloque el código de seguimiento para el administrador)"
+
+#: hitsteps.php:1066
+msgid "Enforce ignoring admin visits via cookie method blocking in dashboard widget?"
+msgstr "¿Obliga a ignorar las visitas de administrador a través del bloqueo del método de cookies en el widget del tablero?"
+
+#: hitsteps.php:1072
+msgid "Enable \"chat with your visitors feature\""
+msgstr "Habilita la función \"chatear con los visitantes\""
+
+#: hitsteps.php:1078
+msgid "Enable floating chat widget on bottom right of site"
+msgstr "Habilitar widget de chat flotante en la parte inferior derecha del sitio"
+
+#: hitsteps.php:1084
+msgid "Use the compact Theme for wordpress dashboard widget?"
+msgstr "Utilice el tema compacto para el widget de tablero de WordPress?"
+
+#: hitsteps.php:1093
+msgid "Show mini hitsteps dashboard (Recent visitors) in wordpress admin dashboard?"
+msgstr "¿Mostrar el panel de control de visitas pequeñas (visitas recientes) en el tablero de administración de WordPress?"
+
+#: hitsteps.php:1099
+msgid "Integrate with WooCommerce: Receive buyer detail and pageview path within \"New Order\" emails"
+msgstr "Integración con WooCommerce: Reciba detalles del comprador y la ruta de la página vista dentro de los correos electrónicos de \"nueva orden\""
+
+#: hitsteps.php:1107
+msgid "Integrate with Jetpack Contact form: Receive visitors full detail when they contact you."
+msgstr "Integración con el formulario de contacto de Jetpack: reciba visitantes con todos los detalles cuando se comuniquen con usted."
+
+#: hitsteps.php:1114
+msgid "We also do support: Contact form 7, Ninja Forms and Gravity forms (enable Hitsteps through their form builder)"
+msgstr "También ofrecemos soporte: Formulario de contacto 7, formularios Ninja y formularios Gravity (habilite Hitsteps a través de su creador de formularios)"
+
+#: hitsteps.php:1121
+msgid "Show Visitor Map in wordpress admin dashboard?"
+msgstr "¿Mostrar mapa de visitantes en el tablero de administración de wordpress?"
+
+#: hitsteps.php:1123
+msgid "Online Visitors"
+msgstr "Visitantes en línea"
+
+#: hitsteps.php:1124 hitsteps.php:1617
+msgid "Today"
+msgstr "Hoy"
+
+#: hitsteps.php:1125
+msgid "Disable Map Widget in admin dashboard"
+msgstr "Deshabilitar el widget de mapa en el panel de administración"
+
+#: hitsteps.php:1146
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: hitsteps.php:1170
+msgid "How to setup Hitsteps on Wordpress?"
+msgstr "Cómo configurar Hitsteps en Wordpress?"
+
+#: hitsteps.php:1174
+msgid "Simply sign up for a Hitsteps account</a> and follow our <a href=\"https://www.hitsteps.com/plugin/?type=api\" target=\"_blank\">extremely simple instructions to get your API Key"
+msgstr "Simplemente regístrese para obtener una cuenta Hitsteps </a> y siga nuestras <a href=\"https://www.hitsteps.com/plugin/?type=api\" target=\"_blank\"> instrucciones extremadamente simples para obtener su clave API"
+
+#: hitsteps.php:1176
+msgid "Login to your Hitsteps account and add your website address to your Hitsteps account.<br>Then in the hitsteps.com settings page, you will find your Hitsteps API code."
+msgstr "Ingrese a su cuenta de Hitsteps y agregue la dirección de su sitio web a su cuenta de Hitsteps. <br> Luego, en la página de configuración de hitsteps.com, encontrará su código de API de Hitsteps."
+
+#: hitsteps.php:1178
+msgid "Copy and paste the API code into the specified field above and click save changes. That is all!<br>All your visitor information will be tracked and logged in real-time and you can monitor the data realtime in your hitsteps.com dashboard."
+msgstr "Copie y pegue el código de API en el campo especificado arriba y haga clic en guardar cambios. ¡Eso es todo! <br> Toda la información de sus visitantes se rastreará y registrará en tiempo real y usted podrá monitorear los datos en tiempo real en su tablero de hitsteps.com."
+
+#: hitsteps.php:1194
+msgid "Tracking non-Wordpress pages?"
+msgstr "Seguimiento de páginas que no son de Wordpress?"
+
+#: hitsteps.php:1198
+msgid "If you have a normal website then all you have to do is input the tracking code on each page of your website, ideally at footer of your page."
+msgstr "Si tiene un sitio web normal, entonces todo lo que tiene que hacer es ingresar el código de seguimiento en cada página de su sitio web, idealmente al pie de su página."
+
+#: hitsteps.php:1200
+msgid "Javascript Tracking Code:"
+msgstr "Código de seguimiento de Javascript:"
+
+#: hitsteps.php:1233
+msgid "Your Hitsteps"
+msgstr "Tus golpes"
+
+#: hitsteps.php:1238
+msgid "Click to see your dashboard"
+msgstr "Haga clic para ver su tablero de instrumentos"
+
+#: hitsteps.php:1249
+msgid "What is Hitsteps?"
+msgstr "¿Qué es Hitsteps?"
+
+#: hitsteps.php:1253
+msgid "Hitsteps Analytics is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time."
+msgstr "Hitsteps Analytics es un potente administrador de visitantes del sitio web en tiempo real, que le permite ver e interactuar con sus visitantes en tiempo real."
+
+#: hitsteps.php:1256
+msgid "Click here to see features"
+msgstr "Haga clic aquí para ver las características"
+
+#: hitsteps.php:1267
+msgid "Want more of Hitsteps?"
+msgstr "¿Quieres más de Hitsteps?"
+
+#: hitsteps.php:1271
+msgid "Install Hitsteps Google Chrome Extension."
+msgstr "Instalar Hitsteps Google Chrome Extension."
+
+#: hitsteps.php:1272
+msgid "Install Hitsteps Firefox Add-on."
+msgstr "Instalar el complemento Hitsteps Firefox."
+
+#: hitsteps.php:1273
+msgid "Use it on other CMS and platforms."
+msgstr "Úselo en otros CMS y plataformas."
+
+#: hitsteps.php:1274
+msgid "Join our Whitelabel program."
+msgstr "Únase a nuestro programa Whitelabel."
+
+#: hitsteps.php:1275
+msgid "Contact Hitsteps team or Provide feedback."
+msgstr "Póngase en contacto con el equipo de Hitsteps o envíe sus comentarios."
+
+#: hitsteps.php:1284
+msgid "Like Hitsteps?"
+msgstr "¿Como Hitsteps?"
+
+#: hitsteps.php:1287
+msgid "Why not do help us to spread the word:"
+msgstr "¿Por qué no nos ayudan a correr la voz?"
+
+#: hitsteps.php:1287
+msgid "Link to us so other can know about it."
+msgstr "Enlace a nosotros para que otros puedan saberlo."
+
+#: hitsteps.php:1287
+msgid "Give it a 5 star rating on WordPress.org."
+msgstr "Darle una calificación de 5 estrellas en WordPress.org."
+
+#: hitsteps.php:1287
+msgid "Join Hitsteps affiliate team."
+msgstr "Únase al equipo de afiliados de Hitsteps."
+
+#: hitsteps.php:1296
+msgid "Follow us"
+msgstr "Síguenos"
+
+#: hitsteps.php:1326
+msgid "Follow"
+msgstr "Seguir"
+
+#: hitsteps.php:1426 hitsteps.php:1502
+msgid "Your Browser don't show our widget's iframe. Please Open Hitsteps Dashboard manually."
+msgstr "Su navegador no muestra el iframe de nuestro widget. Abra Hitsteps Dashboard manualmente."
+
+#: hitsteps.php:1444 hitsteps.php:1517 hitsteps.php:1578
+msgid "hitsteps API Code is not installed. Please open Wordpress settings -> hitsteps for instructions."
+msgstr "El código API de hitsteps no está instalado. Abra la configuración de Wordpress -> hitsteps para obtener instrucciones."
+
+#: hitsteps.php:1445 hitsteps.php:1518 hitsteps.php:1579
+msgid "You need get your free Hitsteps account to get an API key."
+msgstr "Necesita obtener su cuenta Hitsteps gratuita para obtener una clave API."
+
+#: hitsteps.php:1563
+msgid "Your Browser don't show our widget's iframe. Please Open Hitsteps Dashboard manually by clicking here."
+msgstr "Su navegador no muestra el iframe de nuestro widget. Abra Hitsteps Dashboard manualmente haciendo clic aquí."
+
+#: hitsteps.php:1608
+msgid "Hitsteps - Your Analytics Summary"
+msgstr "Hitsteps: su resumen de análisis"
+
+#: hitsteps.php:1616
+msgid "Online"
+msgstr "En línea"
+
+#: hitsteps.php:1618
+msgid "Visitors Map"
+msgstr "Mapa de visitantes"
+
+#: hitsteps.php:1625
+msgid "Recent visitors"
+msgstr "Visitantes recientes"
+
+#: hitsteps.php:1654
+msgid "Hitsteps Live Chat Support"
+msgstr "Compatibilidad con Hitsteps Live Chat"
+
+#: hitsteps.php:1775 hitsteps.php:2068
+msgid "Title:"
+msgstr "Título:"
+
+#: hitsteps.php:1777 hitsteps.php:2069
+msgid "Your Comment:"
+msgstr "Tu comentario:"
+
+#: hitsteps.php:1779 hitsteps.php:2105
+msgid "Language:"
+msgstr "Idioma:"
+
+#: hitsteps.php:1780 hitsteps.php:2106
+msgid "Auto-Detect"
+msgstr "Detección automática"
+
+#: hitsteps.php:1789
+msgid "Custom Online Icon: (optional)"
+msgstr "Icono personalizado en línea: (opcional)"
+
+#: hitsteps.php:1791
+msgid "Custom Offline Icon: (optional)"
+msgstr "Icono Desconectado personalizado: (opcional)"
+
+#: hitsteps.php:1793
+msgid "What is this widget?"
+msgstr "¿Qué es este widget?"
+
+#: hitsteps.php:1793
+msgid "Hitsteps offers a built-in live chat feature. The widget shows an online support icon whenever you are online and shows a leave a message contact form icon when you are not online."
+msgstr "Hitsteps ofrece una característica incorporada de chat en vivo. El widget muestra un ícono de soporte en línea cada vez que está en línea y muestra un ícono de formulario de contacto para dejar de recibir mensajes cuando no está en línea."
+
+#: hitsteps.php:1795
+msgid "Click here to open Hitsteps Widgets page."
+msgstr "Haga clic aquí para abrir la página Hitsteps Widgets."
+
+#: hitsteps.php:1796
+msgid "or"
+msgstr "o"
+
+#: hitsteps.php:1796
+msgid "allows you tobe be aware of incoming messages and chat with your visitors"
+msgstr "te permite estar al tanto de los mensajes entrantes y chatear con tus visitantes"
+
+#: hitsteps.php:1804
+msgid "Please configure Hitsteps API Code in your wordpress settings -> Hitsteps before using the chat widget."
+msgstr "Configure Hitsteps API Code en su configuración de wordpress -> Hitsteps antes de usar el widget de chat."
+
+#: hitsteps.php:1866
+msgid "Hitsteps Statistics"
+msgstr "Estadísticas de Hitsteps"
+
+#: hitsteps.php:2071
+msgid "This widget allow you to show your visitors statistics in your sidebar for public."
+msgstr "Este widget le permite mostrar sus estadísticas de visitantes en su barra lateral para público."
+
+#: hitsteps.php:2074
+msgid "Show Online Counts"
+msgstr "Mostrar conteos en línea"
+
+#: hitsteps.php:2076
+msgid "Show Visits Today"
+msgstr "Mostrar visitas hoy"
+
+#: hitsteps.php:2078
+msgid "Show Pageviews Today"
+msgstr "Mostrar páginas vistas hoy"
+
+#: hitsteps.php:2080
+msgid "Show New Visitors Count for Today"
+msgstr "Mostrar los nuevos visitantes cuentan por hoy"
+
+#: hitsteps.php:2082
+msgid "Show Returning Visitors Today"
+msgstr "Mostrar los visitantes que vuelven hoy"
+
+#: hitsteps.php:2084
+msgid "Show New Visits % Today"
+msgstr "Mostrar nuevas visitas% hoy"
+
+#: hitsteps.php:2087
+msgid "Show Vists Yesterday"
+msgstr "Mostrar visitas ayer"
+
+#: hitsteps.php:2089
+msgid "Show Pageviews Yesterday"
+msgstr "Mostrar páginas vistas ayer"
+
+#: hitsteps.php:2091
+msgid "Show New Visitors Count for Yesterday"
+msgstr "Mostrar recuento de visitantes nuevos para ayer"
+
+#: hitsteps.php:2093
+msgid "Show Returning Visitors Yesterday"
+msgstr "Mostrar los visitantes que regresan ayer"
+
+#: hitsteps.php:2095
+msgid "Show New Visits % Yesterday"
+msgstr "Mostrar nuevas visitas% ayer"
+
+#: hitsteps.php:2098
+msgid "Show Total Pageviews"
+msgstr "Mostrar páginas vistas totales"
+
+#: hitsteps.php:2100
+msgid "Show Total Visits"
+msgstr "Mostrar visitas totales"
+
+#: hitsteps.php:2103
+msgid "Use Custom Theme?"
+msgstr "Use tema personalizado?"
+
+#: hitsteps.php:2124
+msgid "Please configure your hitsteps API Code in your \"wordpress Settings -> Hitsteps\" before using the statistics widget."
+msgstr "Configure su código API de hitsteps en su \"Configuración de wordpress -> Hitsteps\" antes de usar el widget de estadísticas."
+
+#: hitsteps.php:2184
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: init.cf7.php:96 init.ninjaform.php:120
+msgid "Disable Visitor IP, Name, ISP and Country information"
+msgstr "Deshabilitar la información IP de visitante, nombre, ISP y país"
+
+#: init.cf7.php:97 init.ninjaform.php:122
+msgid "Disable Visitor Viewed Pages Path"
+msgstr "Deshabilitar ruta de visitas vistas"
+
+#: init.cf7.php:98 init.ninjaform.php:123
+msgid "Disable Visitor More Information Link"
+msgstr "Deshabilitar visitante Más información Enlace"
+
+#: init.cf7.php:99 init.ninjaform.php:124
+msgid "Disable Visitor Base Visits"
+msgstr "Desactivar visitas a la base de visitantes"
+
+#: init.cf7.php:112
+msgid "Insert Tag"
+msgstr "Insertar etiqueta"
+
+#: init.cf7.php:117
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag %s into the field on the Mail tab."
+msgstr "Para usar la entrada de valor a través de este campo en un campo de correo, debe insertar la etiqueta de correo correspondiente% s en el campo en la pestaña Correo."
+
+#: init.cf7.php:164 init.ninjaform.php:68
+msgid "Please enable Hitsteps API code in WordPress setting page to enable Contact form Analytics."
+msgstr "Habilite el código de la API de Hitsteps en la página de configuración de WordPress para habilitar la analítica del formulario de contacto."
+
+#: init.gravityform.php:45 init.ninjaform.php:87
+msgid "Hitsteps Tracker"
+msgstr "Rastreador de Hitsteps"
+
+#: init.gravityform.php:106
+msgid "Label won't be visible to your visitors, it is just for your reference in this page."
+msgstr "La etiqueta no será visible para sus visitantes, solo es para su referencia en esta página."
+
+#: init.gravityform.php:141
+msgid "Show Visitor IP and Details"
+msgstr "Mostrar IP de visitante y detalles"
+
+#: init.gravityform.php:156
+msgid "Visitor IP, ISP, Name and details will be shown in email"
+msgstr "IP de visitante, ISP, nombre y detalles se mostrarán en el correo electrónico"
+
+#: init.gravityform.php:181
+msgid "Show Visitor Path"
+msgstr "Mostrar ruta de visitante"
+
+#: init.gravityform.php:196
+msgid "Recent visitor pageviews path and their referrers will be shown in email"
+msgstr "La ruta reciente de las visitas a las páginas de visitantes y sus referencias se mostrarán en el correo electrónico."
+
+#: init.gravityform.php:218
+msgid "Show Visitor Base"
+msgstr "Mostrar la base de visitantes"
+
+#: init.gravityform.php:233
+msgid "Visitor first landing time, landing page and landing referrer will be shown"
+msgstr "Se mostrará el primer tiempo de aterrizaje del visitante, la página de aterrizaje y el referente de aterrizaje."
+
+#: init.gravityform.php:256
+msgid "Show Visitor Link"
+msgstr "Mostrar enlace de visitante"
+
+#: init.gravityform.php:268
+msgid "You need to install Hitsteps API code for this function to work. Please use hitsteps menu under setting."
+msgstr "Necesita instalar el código API de Hitsteps para que funcione esta función. Utilice el menú de éxitos debajo de la configuración."
+
+#: init.gravityform.php:290
+msgid "Contain a link to click and view visitor profile in web dashboard"
+msgstr "Contiene un enlace para hacer clic y ver el perfil del visitante en el panel web"
+
+#: init.woocommerce.php:75
+msgid "Please enable Hitsteps API code in WordPress setting page to enable WooCommerce Email Analytics."
+msgstr "Habilite el código Hitsteps API en la página de configuración de WordPress para habilitar WooCommerce Email Analytics."
+

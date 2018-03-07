@@ -1,19 +1,19 @@
 === Hitsteps Ultimate Web Analytics ===
 Contributors: hitsteps
-Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap, visitors, track, counter
+Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap, uptime, visitors, track, counter, online, visitors online,visitors online, count visitor, google analytics, GeoIP, Geo locations, analytics dashboard, visits, visitor city, visitor country, chart, browser, mobile, tablet, blog, today, yesterday, week, month, wp Statistics, year, post, page, sidebar, summary, feedburner, hits, pagerank, woopra, clicky, statcounter, gosquared, mixpanel, histats, alexa, live visit, diagram, graph, traffic
 Requires at least: 2.7
-Tested up to: 4.8.1
+Tested up to: 4.8.2
 Requires PHP: 5.0
-Stable tag: 5.41
+Stable tag: 5.43
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.hitsteps.com/features.php#price
 
-Hitsteps Analytics is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
+Hitsteps Analytics is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time. Provides advanced functions such as live chat, heatmap and uptime monitoring.
 
 == Description ==
 
-Hitsteps Analytics is a powerful real time visitor management and live chat app. It provides Website Uptime monitoring too.
+Hitsteps Analytics is a powerful real time visitor management, heatmap and live chat app. It provides Website Uptime monitoring too.
 It allows you to view your visitors stream and follow each visitors to know more about each pages they see. It allow you to engage with your visitors using live chat tool. You'll be provided with detailed information about each visitor such as geolocation, their first visit on your site, referer to your site, their browser, OS and device and much more!
 Advantages over Google analytics includes but not limited to Detailed information of each and all visitors, ability to engage with visitors using live chat tool, heatmap for each pages, carefully pre-generated and categorized reports, real-time analytics on all reports and much more...
 
@@ -24,13 +24,14 @@ New generation heatmap, Page Analysis: It allows you to view exactly which item 
 Integration with WooCommerce as Analytics allows you to receive your customers detail and pageview path within "New Order" emails
 Contact form analytics feature of it also integrate analytics with Jetpack Contact form, Gravity Forms, Contact Form 7 and Ninja Forms plugins and allow you to know more of your visitors on their incoming emails.
 
+Uptime monitoring allows you to receive call, sms or email whenever your website, part of your website or server go down.
 
 Read More:
 http://www.hitsteps.com/features.php
 
 == Installation ==
 
-It is extremely easy to install.
+It is very easy to install.
 All you have to do is to open an account via the hitsteps website, add your site to your account and get your API Code to use the plugin.
  
 View features hitsteps offers:
@@ -249,8 +250,12 @@ Updated tags
 = 5.37 =
 + Updated support for Gravityforms Analytics. Now support notification fields.
 
-= 5.40 =
-+ Updated support for WordPress v4.8.1
+= 5.42 =
++ Updated support for WordPress v4.8.2
+
+= 5.43 =
++ Enhaned admin non-tracking to enforce admin not to be tracked
++ Added translation for german, french, spanish, persian, russian and turkish.
 
 == Frequently Asked Questions ==
 

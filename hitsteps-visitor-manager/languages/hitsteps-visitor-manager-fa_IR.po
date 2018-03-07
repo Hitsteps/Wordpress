@@ -1,0 +1,866 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hitsteps Ultimate Web Analytics\n"
+"POT-Creation-Date: 2018-03-06 20:09+0800\n"
+"PO-Revision-Date: 2018-03-06 21:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hitsteps.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: api.payload.php:59
+msgid "Hitsteps webserver is down at moment. connection couldn't established."
+msgstr "سرور هیت استپس هم اکنون در دسترس نیست. لطفا بعدا تلاش نمایید."
+
+#: api.payload.php:74
+msgid "You need to install hitsteps API code in setting menu."
+msgstr ""
+"جهت شروع شمارش بازدیدکنندگانتان لطفا کد API هیت استپس را در قسمت تنظیمات نصب "
+"کنید."
+
+#: api.payload.php:109
+msgid "PC"
+msgstr "کامپیوتر"
+
+#: api.payload.php:110
+msgid "Phone"
+msgstr "گوشی موبایل"
+
+#: api.payload.php:111
+msgid "Tablet"
+msgstr "تبلت"
+
+#: api.payload.php:113 api.payload.php:279
+msgid "Name"
+msgstr "نام"
+
+#: api.payload.php:113 api.payload.php:154 api.payload.php:279
+#: api.payload.php:320
+msgid "From"
+msgstr "از"
+
+#: api.payload.php:113 api.payload.php:279
+msgid "Org/ISP"
+msgstr "سرویس دهنده"
+
+#: api.payload.php:113 api.payload.php:279
+msgid "Device"
+msgstr "دستگاه"
+
+#: api.payload.php:113 api.payload.php:279
+msgid "IP"
+msgstr "آی پی"
+
+#: api.payload.php:124 api.payload.php:290
+msgid "First visited"
+msgstr "اولین بازدید"
+
+#: api.payload.php:124
+msgid "from"
+msgstr "از"
+
+#: api.payload.php:124 api.payload.php:290
+msgid "landed on"
+msgstr "صفحه دیده شده"
+
+#: api.payload.php:139 api.payload.php:305
+msgid "Recent pageviews are"
+msgstr "صفحه های دیده شده اخیر"
+
+#: api.payload.php:139 api.payload.php:305
+msgid "pages, result in spending"
+msgstr "صفحه که مدت زمان بازدیدشان"
+
+#: api.payload.php:139 api.payload.php:305
+msgid "minutes"
+msgstr "دقیقه"
+
+#: api.payload.php:151
+msgid "Direct"
+msgstr "مستقیم"
+
+#: api.payload.php:154
+msgid "To"
+msgstr "به"
+
+#: api.payload.php:154 api.payload.php:320
+msgid "visited"
+msgstr "دید"
+
+#: api.payload.php:168 api.payload.php:334
+msgid "Know more about this visitor"
+msgstr "اطلاعات بیشتر در مورد این بازدیدکننده"
+
+#: api.payload.php:212
+msgid "First Visited From"
+msgstr "اولین بازدید توسط"
+
+#: api.payload.php:221
+msgid "Most Recent Referral"
+msgstr "ارجا دهنده اخیر"
+
+#: api.payload.php:270
+msgid "Hitsteps: You can hide this column"
+msgstr "هیت استپس:‌ این ستون را میتوانید محو کنید"
+
+#: api.payload.php:301
+msgid "more than 50"
+msgstr "بیشتر از ۵۰"
+
+#: api.payload.php:302
+msgid "more than"
+msgstr "بیشتر از"
+
+#: hitsteps.php:44
+msgid ""
+"Hitsteps tracking code not shown because you're an administrator and you've "
+"configured Hitsteps plugin to ignore administrators visits."
+msgstr ""
+"کد هیت استپس شما را حساب نخواهد کرد زیرا در تنظیمات درخواست کردید که بازدید "
+"های خودتان حساب نشود."
+
+#: hitsteps.php:387
+msgid "Hitsteps Options"
+msgstr "تنظیمات پلاگین هیت استپس"
+
+#: hitsteps.php:387
+msgid "Hitsteps"
+msgstr "هیت استپس"
+
+#: hitsteps.php:438 hitsteps.php:486
+msgid "Website last 48 hours pageviews graph"
+msgstr "نمودار بازدید صفحات تا ۴۸ ساعت گذشته"
+
+#: hitsteps.php:470 init.cf7.php:75 init.ninjaform.php:212
+msgid "Hitsteps Analytics"
+msgstr "آمارگیر هیت استپس"
+
+#: hitsteps.php:520
+msgid "Get to know Hitsteps Analytics."
+msgstr "با هیت استپس بیشتر آشنا شوید."
+
+#: hitsteps.php:520
+#, php-format
+msgid ""
+"You must <a href=\"%1$s\">enter your hitsteps API key</a> to start tracking "
+"your visitors, get detailed report of every single visitors, watch them live, "
+"get notification when they visit, and receive list of pages they visit "
+"included in messages they send to you via contact forms."
+msgstr ""
+"شما باید <a href=“%1$s”>کد API خود را وارد کنید</a> تا هیت استپس بتوانید "
+"بازدیدکنندگانتان را شمارش کند و شما بتوانید بازدیدکنندگانتان را به صورت زنده "
+"ببینید و گزارش های دقیق برای شما تهیه کند و همچنین اطلاعات بیشتری از "
+"بازدیدکنندگانتان بگیرید هنگامی که آنها از فرم تماس با ما با شما ارتباط برقرار "
+"میکنند."
+
+#: hitsteps.php:703 hitsteps.php:726
+msgid "Cannot find your website address"
+msgstr "آدرس سایت شما یافت نشد"
+
+#: hitsteps.php:704 hitsteps.php:727
+msgid "Cannot find your website name"
+msgstr "اسم سایت شما یافت نشد"
+
+#: hitsteps.php:705
+msgid "Email cannot be empty"
+msgstr "ایمیل نمیتواند خالی باشد"
+
+#: hitsteps.php:706
+msgid "Password cannot be empty"
+msgstr "رمز نمیتواند خالی باشد"
+
+#: hitsteps.php:707
+msgid "Nickname cannot be empty"
+msgstr "نام نمیتواند خالی باشد"
+
+#: hitsteps.php:820
+msgid "Hitsteps plugin setting have been saved."
+msgstr "تنظیمات ذخیره شدند."
+
+#: hitsteps.php:820
+msgid "We have started tracking your visitors."
+msgstr "ما شمارش بازدیدکنندگان شما را شروع کردیم."
+
+#: hitsteps.php:820
+msgid ""
+"Please get your hitsteps API code to enable us to start tracking your site "
+"visitors, for you."
+msgstr ""
+"لطفا کد API خود را از سایت هیت استپس بگیرید تا ما بتوانیم آمار بازدیدکنندگان "
+"سایت شما را دریافت کنیم."
+
+#: hitsteps.php:855
+msgid "Hitsteps - Ultimate Realtime Web Analytics"
+msgstr "هیت استپس - آمارگیر و مشاهده زنده بازدیدکنندگان وب سایت"
+
+#: hitsteps.php:872
+msgid "Click here to open your Hitsteps dashboard."
+msgstr "اینجا کلیک کنید تا داشبورد هیت استپس را باز کنید."
+
+#: hitsteps.php:932
+msgid "Hitsteps Auto Registration"
+msgstr "عضویت اتوماتیک در هیت استپس"
+
+#: hitsteps.php:940
+msgid "Already a hitsteps user? Login here."
+msgstr "آیا قبلا در هیت اسپس عضو شده بودید؟ از اینجا وارد شوید."
+
+#: hitsteps.php:943 hitsteps.php:980
+msgid "Email"
+msgstr "ایمیل"
+
+#: hitsteps.php:944 hitsteps.php:981
+msgid "Password"
+msgstr "رمز"
+
+#: hitsteps.php:945
+msgid "Nickname"
+msgstr "نام"
+
+#: hitsteps.php:946
+msgid "How did you heard about Hitsteps"
+msgstr "چگونه با ما آشنا شدید"
+
+#: hitsteps.php:964
+msgid ""
+"Sign-up and get this website's API key automatically from hitsteps servers. "
+"by clicking this button, you agree <a href=\"https://www.hitsteps.com/terms."
+"php\" target=\"_blank\">hitsteps's terms.</a>."
+msgstr ""
+"با عضویت در هیت استپس کد API برای شمارش بازدیدکنندگان در اختیار شما قرار "
+"میگیرد. با کلیک روی این دکمه شما <a href=“https://www.hitsteps.com/terms.php” "
+"target=“_blank”>قوانین هیت اسپس را قبول کرده اید</a>."
+
+#: hitsteps.php:977
+msgid "New hitsteps user? Sign up here."
+msgstr "کاربر جدید هستید؟ از اینجا عضو شوید."
+
+#: hitsteps.php:992
+msgid "Login & API Key Installation"
+msgstr "ورود و نصب کد API"
+
+#: hitsteps.php:1034
+msgid "Integration"
+msgstr "وصل کردن"
+
+#: hitsteps.php:1047
+msgid "Get your API Key"
+msgstr "دریافت کد API"
+
+#: hitsteps.php:1051
+msgid ""
+"You can use quick auto registration form above to get your API key. "
+"Alternatively you can manually enter your API key here."
+msgstr ""
+"شما می توانید کد API خود را اینجا وارد کنید و اگر کد API را ندارید می توانید "
+"توسط فرم بالا اول عضو شوید."
+
+#: hitsteps.php:1052
+msgid ""
+"Register a hitsteps account if you haven't and add your website to your "
+"account"
+msgstr "در صورتی که حساب کاربری در هیت اسپس ندارید عضو شوید"
+
+#: hitsteps.php:1052
+msgid ""
+"Go to your user homepage on Hitsteps and click \"Settings\" under the name of "
+"the domain, you will find the API Key under Tracking code. Each website has "
+"its own API Code. It looks like this 3defb4a2e4426642ea..."
+msgstr ""
+"وارد قسمت سایت هایم در هیت استپس شوید و روی دکمه تنظیمات در کنار نام سایت خود "
+"کلیک کنید و کد API را در آن قسمت مشاهده خواهید کرد. هر سایتی کد API خود را "
+"دارد که چیزی شبیه این است 3defb4a2e4426642ea…"
+
+#: hitsteps.php:1057 hitsteps.php:1094 hitsteps.php:1102 hitsteps.php:1108
+#: hitsteps.php:1115 hitsteps.php:1121 hitsteps.php:1127 hitsteps.php:1135
+#: hitsteps.php:1142 hitsteps.php:1150 hitsteps.php:2125 hitsteps.php:2127
+#: hitsteps.php:2129 hitsteps.php:2131 hitsteps.php:2133 hitsteps.php:2135
+#: hitsteps.php:2138 hitsteps.php:2140 hitsteps.php:2142 hitsteps.php:2144
+#: hitsteps.php:2146 hitsteps.php:2149 hitsteps.php:2151 hitsteps.php:2154
+msgid "Yes"
+msgstr "آری"
+
+#: hitsteps.php:1058 hitsteps.php:1096 hitsteps.php:1104 hitsteps.php:1110
+#: hitsteps.php:1117 hitsteps.php:1123 hitsteps.php:1129 hitsteps.php:1136
+#: hitsteps.php:1144 hitsteps.php:1152 hitsteps.php:2126 hitsteps.php:2128
+#: hitsteps.php:2130 hitsteps.php:2132 hitsteps.php:2134 hitsteps.php:2136
+#: hitsteps.php:2139 hitsteps.php:2141 hitsteps.php:2143 hitsteps.php:2145
+#: hitsteps.php:2147 hitsteps.php:2150 hitsteps.php:2152 hitsteps.php:2155
+msgid "No"
+msgstr "خیر"
+
+#: hitsteps.php:1058
+msgid "Enable floating chat widget on "
+msgstr "فعال کردن چت شناور "
+
+#: hitsteps.php:1062
+msgid "Bottom right"
+msgstr "پایین راست"
+
+#: hitsteps.php:1063
+msgid "Bottom left"
+msgstr "پایین چپ"
+
+#: hitsteps.php:1064
+msgid "Top right"
+msgstr "بالا راست"
+
+#: hitsteps.php:1065
+msgid "Top left"
+msgstr "بالا چپ"
+
+#: hitsteps.php:1073 hitsteps.php:1203
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: hitsteps.php:1084
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: hitsteps.php:1096
+msgid "Show Hitsteps quick summary in Wordpress Dashboard?"
+msgstr "نمایش خلاصه آمار ها در داشبورد وردپرس؟"
+
+#: hitsteps.php:1104
+msgid ""
+"Restrict Dashboard widgets for administrators only (recommended for your "
+"hitsteps account security)"
+msgstr ""
+"فقط مدیر سایت بتواند آمارها را در داشبورد وردپرس ببیند (برای امنیت بیشتر حساب "
+"کاربری هیت اسپس این گزینه توصیه می شود)"
+
+#: hitsteps.php:1110
+msgid ""
+"Detect Visitors identity and do 'Visitor Aliasing' (using email they enter "
+"when commenting and username they login)"
+msgstr ""
+"هنگامی که کاربران نام کاربری یا ایمیل خود را می نویسند به اسم و ایمیل آنها را "
+"در پروفایل هیت اسپس آنها به یاد داشته باش"
+
+#: hitsteps.php:1117
+msgid "Ignore admin visits? (Don't put tracking code for admin)"
+msgstr "بازدید های مدیر سایت را شمارش نکن"
+
+#: hitsteps.php:1123
+msgid "Ignore admin visits? (via cookie method blocking in dashboard widget)"
+msgstr "بازدید های مدیر سایت را شمارش نکن (توسط کوکی ها)"
+
+#: hitsteps.php:1129
+msgid "Allow counting clicks for \"Heatmap\" & \"Page Analysis\""
+msgstr ""
+"کلیک ها روی صفحه را برای تولید هیت مپ و نقشه حرارتی به هیت استپس ارسال کن"
+
+#: hitsteps.php:1136
+msgid "Use compact theme for online float widget?"
+msgstr "برای چت آنلاین از قالب جم و جور شناور استفاده شود؟"
+
+#: hitsteps.php:1144
+msgid ""
+"Integrate with WooCommerce: Receive buyer detail and pageview path within "
+"\"New Order\" emails"
+msgstr ""
+"در صورت استفاده از WooCommerce اطلاعات بیشتر در مورد خریداران را برایم ایمیل "
+"کن"
+
+#: hitsteps.php:1152
+msgid ""
+"Integrate with Jetpack Contact form: Receive visitors full detail when they "
+"contact you."
+msgstr ""
+"در صورت استفاده از JetPack هنگامی که بازدیدکنندگان با من تماس میگیرند اطلاعات "
+"بیشتری از آنها به من ایمیل کن."
+
+#: hitsteps.php:1159
+msgid ""
+"We also do support: Contact form 7, Ninja Forms and Gravity forms (enable "
+"Hitsteps through their form builder)"
+msgstr ""
+"ما همچنین contact form 7 و ninja form و gravity forms را ساپورت می کنیم که "
+"هنگامی که بازدید کنندگانتان از این پلاگین ها با شما تماس میگیرند ما می توانیم "
+"اطلاعات بیشتری در مورد آنها در ایمیل به شما نشان دهیم."
+
+#: hitsteps.php:1166
+msgid "Show Visitor Map in wordpress admin dashboard?"
+msgstr "نمایش نقشه بازدید کننده ها در داشبورد وردپرس؟"
+
+#: hitsteps.php:1168
+msgid "Online Visitors"
+msgstr "بازدیدکننده های آنلاین"
+
+#: hitsteps.php:1169 hitsteps.php:1670
+msgid "Today"
+msgstr "امروز"
+
+#: hitsteps.php:1170
+msgid "Disable Map Widget in admin dashboard"
+msgstr "غیر فعال کردن نقشه در داشبورد وردپرس"
+
+#: hitsteps.php:1175
+msgid "Default Language for visitors chat window:"
+msgstr "زبان اصلی مورد استفاده در چت:"
+
+#: hitsteps.php:1176 hitsteps.php:1830 hitsteps.php:2158
+msgid "Auto-Detect"
+msgstr "با توجه به موقعیت جغرافیایی بازدید کننده"
+
+#: hitsteps.php:1227
+msgid "How to setup Hitsteps on Wordpress?"
+msgstr "چگونه هیت استپس را در ورد پرس نصب کنیم؟"
+
+#: hitsteps.php:1231
+msgid ""
+"Simply sign up for a Hitsteps account</a> and follow our <a href=\"https://"
+"www.hitsteps.com/plugin/?type=api\" target=\"_blank\">extremely simple "
+"instructions to get your API Key"
+msgstr ""
+"به سادگی ثبت نام کنید در هیت استپس و <a href=\"https://www.hitsteps.com/"
+"plugin/?type=api\" target=\"_blank\">دستورالعمل بسیار ساده برای دریافت کلید "
+"API خود را</a> دنبال کنید"
+
+#: hitsteps.php:1233
+msgid ""
+"Login to your Hitsteps account and add your website address to your Hitsteps "
+"account.<br>Then in the hitsteps.com settings page, you will find your "
+"Hitsteps API code."
+msgstr ""
+"وارد حساب کاربری خود در هیت استپس شوید و سایت خود را اضافه کنید.‬\n"
+"‫سپس کد API را دریافت خواهید کرد."
+
+#: hitsteps.php:1235
+msgid ""
+"Copy and paste the API code into the specified field above and click save "
+"changes. That is all!<br>All your visitor information will be tracked and "
+"logged in real-time and you can monitor the data realtime in your hitsteps."
+"com dashboard."
+msgstr ""
+"کد API را اینجا وارد کنید و روی دکمه ثبت تغییرات کلیک کنید.‬\n"
+"‫از این پس بازدیدکنندگان شما شمارش خواهند شد و میتوانید آنان را به صورت زنده "
+"در داشبورد هیت استپس مشاهده کنید."
+
+#: hitsteps.php:1251
+msgid "Tracking non-Wordpress pages?"
+msgstr "آیا این وب سایت صفحات خارج از ورد پرس نیز دارد؟"
+
+#: hitsteps.php:1255
+msgid ""
+"If you have a normal website then all you have to do is input the tracking "
+"code on each page of your website, ideally at footer of your page."
+msgstr ""
+"می توانید این کد را در پایین صفحات خود بگذارید تا آن صفحات نیز شمارش شوند."
+
+#: hitsteps.php:1257
+msgid "Javascript Tracking Code:"
+msgstr "کد جاوا اسکریپت برای صفحات غیر وردپرسی:"
+
+#: hitsteps.php:1290
+msgid "Your Hitsteps"
+msgstr "هیت استپس شما"
+
+#: hitsteps.php:1295
+msgid "Click to see your dashboard"
+msgstr "اینجا کلیک کنید تا داشبورد را ببینید"
+
+#: hitsteps.php:1306
+msgid "What is Hitsteps?"
+msgstr "هیت اسپس چیست؟"
+
+#: hitsteps.php:1310
+msgid ""
+"Hitsteps Analytics is a powerful real time website visitor manager, it allow "
+"you to view and interact with your visitors in real time."
+msgstr ""
+"شمارشگر پیشرفته بازدیدکنندگان وبسایت به شما امکان مشاهده و صحبت با "
+"بازدیدکنندگانتان را می دهد."
+
+#: hitsteps.php:1313
+msgid "Click here to see features"
+msgstr "برای دیدن لیست کامل امکانات کلیک کنید"
+
+#: hitsteps.php:1324
+msgid "Want more of Hitsteps?"
+msgstr "هیت اسپس بیشتری می خواهید؟"
+
+#: hitsteps.php:1329
+msgid "Learn how to enable contact form analytics."
+msgstr ""
+"یاد بگیرید که چگونه اطلاعات بازدیدکنندگانتان را هنگامی که برایتان ایمیل ارسال "
+"میکنند در ایمیل ارسالی ببینید."
+
+#: hitsteps.php:1330
+msgid "Install Hitsteps Google Chrome Extension."
+msgstr "افزونه گوگل کروم ما را نصب کنید."
+
+#: hitsteps.php:1331
+msgid "Install Hitsteps Firefox Add-on."
+msgstr "افزونه فایرفاکس مارا نصب کنید."
+
+#: hitsteps.php:1332
+msgid "Use it on other CMS and platforms."
+msgstr "روی سایت های دیگرتان نیز از هیت استپس استفاده کنید."
+
+#: hitsteps.php:1333
+msgid "Join our Whitelabel program."
+msgstr "عضو برنامه نام تجاری ما شوید."
+
+#: hitsteps.php:1334
+msgid "Contact Hitsteps team or Provide feedback."
+msgstr "با ما تماس بگیرید و نظرتان را اعلام کنید."
+
+#: hitsteps.php:1343
+msgid "Like Hitsteps?"
+msgstr "هیت استپس را دوست دارید؟"
+
+#: hitsteps.php:1346
+msgid "Why not do help us to spread the word:"
+msgstr "کمک کنید تا نام ما در زبان ها بیاید:"
+
+#: hitsteps.php:1346
+msgid "Link to us so other can know about it."
+msgstr "صفحات ما را دنبال کنید."
+
+#: hitsteps.php:1346
+msgid "Give it a 5 star rating on WordPress.org."
+msgstr "به ما امتیاز ۵ ستاره بدهید."
+
+#: hitsteps.php:1346
+msgid "Join Hitsteps affiliate team."
+msgstr "عضو تیم بازاریابی ما شوید."
+
+#: hitsteps.php:1355
+msgid "Follow us"
+msgstr "ما را دنبال کنید"
+
+#: hitsteps.php:1385
+msgid "Follow"
+msgstr "دنبال"
+
+#: hitsteps.php:1485 hitsteps.php:1555
+msgid ""
+"Your Browser don't show our widget's iframe. Please Open Hitsteps Dashboard "
+"manually."
+msgstr ""
+"مرورگر شما اجازه نمایش این قسمت را نمیدهد. شما میتوانید اطلاعات را از سایت "
+"هیت استپس ببینید."
+
+#: hitsteps.php:1503 hitsteps.php:1570 hitsteps.php:1631
+msgid ""
+"hitsteps API Code is not installed. Please open Wordpress settings -> "
+"hitsteps for instructions."
+msgstr ""
+"‫جهت شروع شمارش بازدیدکنندگانتان لطفا کد API هیت استپس را در قسمت تنظیمات نصب "
+"کنید."
+
+#: hitsteps.php:1504 hitsteps.php:1571 hitsteps.php:1632
+msgid "You need get your free Hitsteps account to get an API key."
+msgstr ""
+"شما باید حساب رایگان خود در هیت اسپس را افتتاح کنید و کد API سایت خود را "
+"بگیرید."
+
+#: hitsteps.php:1616
+msgid ""
+"Your Browser don't show our widget's iframe. Please Open Hitsteps Dashboard "
+"manually by clicking here."
+msgstr ""
+"‫مرورگر شما اجازه نمایش این قسمت را نمیدهد. شما میتوانید اطلاعات را از سایت "
+"هیت استپس ببینید."
+
+#: hitsteps.php:1661
+msgid "Hitsteps - Your Analytics Summary"
+msgstr "هیت اسپس - خلاصه آمارها"
+
+#: hitsteps.php:1669
+msgid "Online"
+msgstr "آنلاین"
+
+#: hitsteps.php:1671
+msgid "Visitors Map"
+msgstr "نقشه بازدید کنندگان"
+
+#: hitsteps.php:1678
+msgid "Recent visitors"
+msgstr "بازدیدکنندگان اخیر"
+
+#: hitsteps.php:1707
+msgid "Hitsteps Live Chat Support"
+msgstr "ارتباط زنده با بازدیدکنندگان"
+
+#: hitsteps.php:1825 hitsteps.php:2120
+msgid "Title:"
+msgstr "عنوان:"
+
+#: hitsteps.php:1827 hitsteps.php:2121
+msgid "Your Comment:"
+msgstr "نظر شما:"
+
+#: hitsteps.php:1829 hitsteps.php:2157
+msgid "Language:"
+msgstr "زبان:"
+
+#: hitsteps.php:1840
+msgid "Custom Online Icon: (optional)"
+msgstr "عکس تماس هنگامی که آنلاین هستید: (اختیاری)"
+
+#: hitsteps.php:1842
+msgid "Custom Offline Icon: (optional)"
+msgstr "‫عکس تماس هنگامی که آفلاین هستید: (اختیاری)"
+
+#: hitsteps.php:1844
+msgid "What is this widget?"
+msgstr "این چیست؟"
+
+#: hitsteps.php:1844
+msgid ""
+"Hitsteps offers a built-in live chat feature. The widget shows an online "
+"support icon whenever you are online and shows a leave a message contact form "
+"icon when you are not online."
+msgstr ""
+"یکی از امکانات هیت استپس امکان دریافت پیغام از طرف بازدیدکنندگانتان است. ما "
+"در این قسمت اگر شما در هیت استپس آنلاین باشید امکان دریافت پیام از "
+"بازدیدکنندگانتان را می دهیم و اگر آفلاین باشید امکان دریافت ایمیل از "
+"بازدیدکنندگانتان را میدهیم."
+
+#: hitsteps.php:1846
+msgid "Click here to open Hitsteps Widgets page."
+msgstr "اینجا کلیک کنید تا صفحه ویدجت های هیت استپس را باز کنید."
+
+#: hitsteps.php:1847
+msgid "or"
+msgstr "یا"
+
+#: hitsteps.php:1847
+msgid ""
+"allows you tobe be aware of incoming messages and chat with your visitors"
+msgstr "امکان دریافت پیام از بازدیدکنندگانتان را داشته باشید"
+
+#: hitsteps.php:1855
+msgid ""
+"Please configure Hitsteps API Code in your wordpress settings -> Hitsteps "
+"before using the chat widget."
+msgstr ""
+"‫جهت استفاده از این قسمت لطفا اول کد API هیت استپس را در قسمت تنظیمات نصب کنید."
+
+#: hitsteps.php:1918
+msgid "Hitsteps Statistics"
+msgstr "آمارگیر هیت استپس"
+
+#: hitsteps.php:2123
+msgid ""
+"This widget allow you to show your visitors statistics in your sidebar for "
+"public."
+msgstr "این قسمت به شما اجازه میدهد آمار بازدید خود را به عموم نمایش دهید."
+
+#: hitsteps.php:2126
+msgid "Show Online Counts"
+msgstr "نمایش تعداد آنلاین"
+
+#: hitsteps.php:2128
+msgid "Show Visits Today"
+msgstr "نمایش بینندگان امروز"
+
+#: hitsteps.php:2130
+msgid "Show Pageviews Today"
+msgstr "نمایش تعداد صفحات دیده شده امروز"
+
+#: hitsteps.php:2132
+msgid "Show New Visitors Count for Today"
+msgstr "نمایش تعداد بازدید کننده های جدید امروز"
+
+#: hitsteps.php:2134
+msgid "Show Returning Visitors Today"
+msgstr "نمایش بازدید کنندگان دوباره برگشته امروز"
+
+#: hitsteps.php:2136
+msgid "Show New Visits % Today"
+msgstr "نمایش درصد بازدیدهای جدید امروز"
+
+#: hitsteps.php:2139
+msgid "Show Vists Yesterday"
+msgstr "نمایش تعداد بازدید کننده های دیروز"
+
+#: hitsteps.php:2141
+msgid "Show Pageviews Yesterday"
+msgstr "نمایش تعداد صفحات دیده شده دیروز"
+
+#: hitsteps.php:2143
+msgid "Show New Visitors Count for Yesterday"
+msgstr "نمایش تعداد بازدید کننده های جدید دیروز"
+
+#: hitsteps.php:2145
+msgid "Show Returning Visitors Yesterday"
+msgstr "بازدید کنندگان دوباره برگشته دیروز"
+
+#: hitsteps.php:2147
+msgid "Show New Visits % Yesterday"
+msgstr "نمایش درصد بازدیدهای جدید دیروز"
+
+#: hitsteps.php:2150
+msgid "Show Total Pageviews"
+msgstr "نمایش تعداد کل صفحات دیده شده سایت"
+
+#: hitsteps.php:2152
+msgid "Show Total Visits"
+msgstr "نمایش تعداد کل بازدیدکنندگان سایت"
+
+#: hitsteps.php:2155
+msgid "Use Custom Theme?"
+msgstr "قالب سفارشی؟"
+
+#: hitsteps.php:2177
+msgid ""
+"Please configure your hitsteps API Code in your \"wordpress Settings -> "
+"Hitsteps\" before using the statistics widget."
+msgstr ""
+"‫جهت استفاده از این قسمت لطفا اول کد API هیت استپس را در قسمت تنظیمات نصب کنید."
+
+#: hitsteps.php:2239
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: hitsteps.php:2283
+msgid "Daily Pageviews"
+msgstr "بازدیدهای روزانه"
+
+#: init.cf7.php:96 init.ninjaform.php:120
+msgid "Disable Visitor IP, Name, ISP and Country information"
+msgstr "نمایش ندادن آی پی و اسم و سرویس دهنده و کشور بازدیدکننده در ایمیل"
+
+#: init.cf7.php:97 init.ninjaform.php:122
+msgid "Disable Visitor Viewed Pages Path"
+msgstr "نمایش ندادن لیست صفحات بازدیدی بازدیدکننده در ایمیل"
+
+#: init.cf7.php:98 init.ninjaform.php:123
+msgid "Disable Visitor More Information Link"
+msgstr "نمایش ندادن لینک اطلاعات بیشتر بازدیدکننده در ایمیل"
+
+#: init.cf7.php:99 init.ninjaform.php:124
+msgid "Disable Visitor Base Visits"
+msgstr "نمایش ندادن محل ورود اولیه بازدیدکننده در ایمیل"
+
+#: init.cf7.php:102
+#, php-format
+msgid ""
+"To use the value input through this field in a mail field, you need to insert "
+"the corresponding mail-tag %s into the field on the Mail tab."
+msgstr ""
+"برای استفاده از این اطلاعات در ایمیل، شما نیاز به وارد کردن ایمیل مربوطه تگ "
+"(%s) ( بازدید کنندگان) را در زمینه در تب ایمیل دارید."
+
+#: init.cf7.php:116
+msgid "Insert Tag"
+msgstr "اضافه کردن تگ"
+
+#: init.cf7.php:166 init.ninjaform.php:68
+msgid ""
+"Please enable Hitsteps API code in WordPress setting page to enable Contact "
+"form Analytics."
+msgstr ""
+"‫‫جهت استفاده از این قسمت لطفا اول کد API هیت استپس را در قسمت تنظیمات نصب کنید."
+
+#: init.gravityform.php:48
+msgid "HS Analytics"
+msgstr "آمارگیر هیت استپس"
+
+#: init.gravityform.php:109 init.gravityform.php:416 init.gravityform.php:779
+msgid ""
+"Label won't be visible to your visitors, it is just for your reference in "
+"this page."
+msgstr "این اطلاعات فقط به شما نشان داده میشوند."
+
+#: init.gravityform.php:144
+msgid "Show Visitor IP and Details"
+msgstr "نمایش آی پی و اطلاعات بازدیدکننده"
+
+#: init.gravityform.php:159
+msgid "Visitor IP, ISP, Name and details will be shown in email"
+msgstr ""
+"آی پی و سرویس دهنده و کشور و اطلاعات بازدیدکننده در ایمیل نمایش داده می شود"
+
+#: init.gravityform.php:184
+msgid "Show Visitor Path"
+msgstr "نمایش لیست صفحات بازدیدی"
+
+#: init.gravityform.php:199
+msgid "Recent visitor pageviews path and their referrers will be shown in email"
+msgstr "لیست صفحاتی که بازدیدکننده هنگام ارسال ایمیل مشاهده کرده ایمیل میشود"
+
+#: init.gravityform.php:221
+msgid "Show Visitor Base"
+msgstr "نمایش ورودی اولیه بازدیدکننده"
+
+#: init.gravityform.php:236
+msgid ""
+"Visitor first landing time, landing page and landing referrer will be shown"
+msgstr ""
+"ارجا دهنده اولیه و اولین صفحه ای که بازدید کننده در سایت شما مشاهده کرد در "
+"ایمیل ارسال میشود"
+
+#: init.gravityform.php:259
+msgid "Show Visitor Link"
+msgstr "نمایش لینک بازدیدکننده"
+
+#: init.gravityform.php:271
+msgid ""
+"You need to install Hitsteps API code for this function to work. Please use "
+"hitsteps menu under setting."
+msgstr ""
+"‫‫جهت استفاده از این قسمت لطفا اول کد API هیت استپس را در قسمت تنظیمات نصب کنید."
+
+#: init.gravityform.php:293
+msgid "Contain a link to click and view visitor profile in web dashboard"
+msgstr "این لینک به شما اجازه دیدن اطلاعات بیشتر در مورد بازدیدکننده را میدهد"
+
+#: init.gravityform.php:363
+msgid "HS Base Ref"
+msgstr "ارجا اولیه بازدیدکننده هیت استپس"
+
+#: init.gravityform.php:726
+msgid "Recent Referral"
+msgstr "ارجا دهنده اخیر"
+
+#: init.ninjaform.php:87
+msgid "Hitsteps Tracker"
+msgstr "آمارگیر هیت استپس"
+
+#: init.woocommerce.php:79
+msgid ""
+"Please enable Hitsteps API code in WordPress setting page to enable "
+"WooCommerce Email Analytics."
+msgstr ""
+"‫‫جهت استفاده از این قسمت لطفا اول کد API هیت استپس را در قسمت تنظیمات نصب کنید."
+
+#. Plugin Name of the plugin/theme
+msgid "Hitsteps Ultimate Web Analytics"
+msgstr "تجزیه و تحلیل ترافیک وب سایت هیت اسپس"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.hitsteps.com/"
+msgstr "‫https://www.hitsteps.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Hitsteps is a powerful real time website visitor manager, it allow you to "
+"view and interact with your visitors in real time."
+msgstr ""
+"شمارشگر پیشرفته بازدیدکنندگان وبسایت به شما امکان مشاهده و صحبت با "
+"بازدیدکنندگانتان را می دهد."
+
+#. Author of the plugin/theme
+msgid "hitsteps"
+msgstr "هیت استپس"
+
+#. Author URI of the plugin/theme
+msgid "http://www.hitsteps.com/"
+msgstr "‫http://www.hitsteps.com/"

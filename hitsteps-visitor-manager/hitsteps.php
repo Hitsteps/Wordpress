@@ -4,7 +4,7 @@ Plugin Name: Hitsteps Ultimate Web Analytics
 Plugin URI: https://www.hitsteps.com/
 Description: Hitsteps is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
 Author: hitsteps
-Version: 5.41
+Version: 5.43
 Author URI: http://www.hitsteps.com/
 */ 
 
@@ -63,7 +63,7 @@ $htssl='';
   }
   }
 
-?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.40 - DO NOT CHANGE --><?php
+?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.42 - DO NOT CHANGE --><?php
 
 
 if (round($option['chatcompact'])==2){
@@ -391,45 +391,29 @@ $x = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE
 
 
 
-
 if (!function_exists("hitsteps_admin_bar_head")){
 		function hitsteps_admin_bar_head() {
-			//add_action( 'admin_bar_menu', 'hitsteps_admin_bar_menu', 1000 );
+
+			if (current_user_can('manage_options')){
+			$option=get_hst_conf();
+			if (!isset($option['code'])) $option['code']='';
+			
+			if ( $option['code']!=''){
+			if( round($option['igac'])==1) {
 			?>
-
-			<style type='text/css'>
-				#wpadminbar .quicklinks li#wp-admin-bar-hitstepsbtn {
-					height: 28px
-				}
-
-				#wpadminbar .quicklinks li#wp-admin-bar-hitstepsbtn a {
-					height: 28px;
-					padding: 0;
-				}
-
-				#wpadminbar .quicklinks li#wp-admin-bar-hitstepsbtn a img {
-					padding: 4px 5px;
-					height: 20px;
-	
-				}
-				
+			<script src="https://www.hitsteps.com/forceblockcookie.php?code=<?php echo $option['code']; ?>"></script>
+			<script src="https://log.hitsteps.com/forceblockcookie.php?code=<?php echo $option['code']; ?>"></script>
+			<?php
+			}
+			}
+			}
 
 
-				#wpadminbar .quicklinks li#wp-admin-bar-hitstepsgraph a {
-					padding: 0;
-				}
 
-				#wpadminbar .quicklinks li#wp-admin-bar-hitstepsgraph a img {
-					padding: 4px 5px;
-					padding-top:0px !important;
-					background-position:5px 0px !important;
-					
-	
-				}
-			</style>
-		<?php
 		}
-	}	
+add_action('admin_bar_menu','hitsteps_admin_bar_head');
+
+}	
 
 	if (!function_exists("hitsteps_admin_top_graph")){
 		function hitsteps_admin_top_graph() {	
@@ -453,6 +437,7 @@ if (!function_exists("hitsteps_admin_bar_head")){
 			}
 			$title = __("Website last 48 hours pageviews graph",'hitsteps-visitor-manager');
 			
+
 			$menu = array(
 				'id'    => 'hitstepsgraph',
 				'title' => "<img width='96' height='24' src='https://log.hitsteps.com/api/wp-graph.php?code=".$option['code'].$cookieblock."' alt='" . $title . "' title='" . $title . "' style='padding-top:5px;' />",
@@ -549,9 +534,9 @@ $postaction='';
 }
 hitsteps_admin_warnings();
 $option=get_hst_conf();
-if ($option['wgd']!=2){
 
-add_action( 'wp_head', 'hitsteps_admin_bar_head' );
+
+if ($option['wgd']!=2){
 hitsteps_admin_top_graph();
 
 }
@@ -1781,7 +1766,7 @@ $htssl=" - SSL";
                         echo $before_title . $title . $after_title; ?>
 
 <div style="text-align: center;" class="hs-wordpress-chat-placeholder">
-<!-- HITSTEPS ONLINE SUPPORT CODE v5.40 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
+<!-- HITSTEPS ONLINE SUPPORT CODE v5.42 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
 var hschatcs='www.';if (document.location.protocol=='https:') hschatcs='';hschatcsrc=document.location.protocol+'//log.hitsteps.com/online.php?code=<?php echo $option['code']; ?>&lang=<?php echo urlencode($instance['lang']); ?>&img=<?php echo urlencode($instance['wd_img']); ?>&off=<?php echo urlencode($instance['wd_off']); ?>';
 document.write('<scri'+'pt type="text/javascript" src="'+hschatcsrc+'"></scr'+'ipt>');
 </script></div><!-- HITSTEPS ONLINE SUPPORT CODE - DO NOT CHANGE -->
