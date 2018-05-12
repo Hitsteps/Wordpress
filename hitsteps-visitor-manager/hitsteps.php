@@ -4,7 +4,7 @@ Plugin Name: Hitsteps Ultimate Web Analytics
 Plugin URI: https://www.hitsteps.com/
 Description: Hitsteps is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
 Author: hitsteps
-Version: 5.44
+Version: 5.45
 Author URI: http://www.hitsteps.com/
 */ 
 
@@ -65,10 +65,6 @@ $htssl='';
 
 ?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.44 - DO NOT CHANGE --><?php
 
-
-if (round($option['chatcompact'])==2){
-?><script>_hst_chat_compact=1;</script><?php
-}
 
 if (is_search()){
 
@@ -232,8 +228,7 @@ $stats_widget="";
 
 ?><?php if (round($hitsteps_tracker==0)){
 
-$lang=$option['lang'];
-if ($lang=='auto') $lang='';
+
 
 ?>
 
@@ -241,7 +236,7 @@ if ($lang=='auto') $lang='';
 (function(){
 var hstc=document.createElement('script');
 var hstcs='www.';
-hstc.src='https://log.hitsteps.com/track.php?<?php echo $stats_widget; ?>code=<?php echo substr($option['code'],0,32); ?><?php if ($lang!=''){ ?>&lang=<?php echo strtolower($lang); } ?>';
+hstc.src='https://log.hitsteps.com/track.php?<?php echo $stats_widget; ?>code=<?php echo substr($option['code'],0,32); ?>';
 hstc.async=true;
 var htssc = document.getElementsByTagName('script')[0];
 htssc.parentNode.insertBefore(hstc, htssc);
@@ -250,27 +245,6 @@ htssc.parentNode.insertBefore(hstc, htssc);
 <?php if (round($option['allowchat'])==2){ ?>var nochat=1; var _hs_heatmap_allowed=0;<?php }else{ ?>var nochat=0;<?php } ?>
 
 </script>
-<?php if (round($option['allowfloat'])!=2){
-
-$position="bottomright";
-if (round($option['floatpos'])==1) $position="bottomleft";
-if (round($option['floatpos'])==2) $position="topright";
-if (round($option['floatpos'])==3) $position="topleft";
-
- ?>
-
-<script>
-(function(){
-var hstcfl=document.createElement('script');
-var hstcfls='www.';
-hstcfl.src='https://log.hitsteps.com/onlinefloat.php?pos=<?php echo $position; ?>&code=<?php echo substr($option['code'],0,32); ?><?php if ($lang!=''){ ?>&lang=<?php echo strtolower($lang); } ?>';
-hstcfl.async=true;
-var htssc = document.getElementsByTagName('script')[0];
-htssc.parentNode.insertBefore(hstcfl, htssc);
-})();
-</script>
-
-<?php } ?>
 <?php }else{ ?>
 
 <noscript><a href="https://www.hitsteps.com/"><img src="https://log.hitsteps.com/track.php?mode=img&amp;code=<?php echo substr($option['code'],0,32); ?><?php echo $htmlpar; ?>" alt="Tracking for non-javascript browsers by Hitsteps <?php echo $keyword[$kwid]; ?>" border='0' width='1' height='1' /></a></noscript>
@@ -342,13 +316,9 @@ if (!isset($option['igac'])) $option['igac']=0;
 if (!isset($option['woo'])) $option['woo']=1;
 if (!isset($option['jetpack'])) $option['jetpack']=1;
 if (!isset($option['allowchat'])) $option['allowchat']=1;
-if (!isset($option['allowfloat'])) $option['allowfloat']=1;
-if (!isset($option['floatpos'])) $option['floatpos']=0;
-if (!isset($option['chatcompact'])) $option['chatcompact']=1;
 if (!isset($option['stats'])) $option['stats']=2;
 if (!isset($option['stats'])) $option['stats']=2;
 if (!isset($option['wpmap'])) $option['wpmap']=2;
-if (!isset($option['lang'])) $option['lang']='auto';
 if (!isset($option['wpdash'])) $option['wpdash']=2;
 
 //define pre-defined values.
@@ -360,13 +330,9 @@ if (round($option['igac'])==0) $option['igac']=0;
 if (round($option['woo'])==0) $option['woo']=1;
 if (round($option['jetpack'])==0) $option['jetpack']=1;
 if (round($option['allowchat'])==0) $option['allowchat']=1;
-if (round($option['allowfloat'])==0) $option['allowfloat']=1;
-if (round($option['floatpos'])==0) $option['floatpos']=0;
-if (round($option['chatcompact'])==0) $option['chatcompact']=1;
 if (!isset($option['stats'])) $option['stats']=2;
 if (round($option['stats'])==0) $option['stats']=2;
 if (round($option['wpmap'])==0) $option['wpmap']=2;
-if ($option['lang']=='') $option['lang']='auto';
 if (round($option['wpdash'])==0) $option['wpdash']=2;
 
 return $option;
@@ -606,20 +572,14 @@ function hst_optionpage(){
 
 $option=get_hst_conf();
 
-
-
 $option['code']=html_entity_decode($option['code']);
 $option['wgd']=html_entity_decode($option['wgd']);
 $option['wgl']=html_entity_decode($option['wgl']);
 $option['woo']=html_entity_decode($option['woo']);
 $option['jetpack']=html_entity_decode($option['jetpack']);
 $option['allowchat']=html_entity_decode($option['allowchat']);
-$option['allowfloat']=html_entity_decode($option['allowfloat']);
-$option['floatpos']=html_entity_decode($option['floatpos']);
-$option['chatcompact']=html_entity_decode($option['chatcompact']);
 $option['stats']=html_entity_decode($option['stats']);
 $option['wpmap']=html_entity_decode($option['wpmap']);
-$option['lang']=html_entity_decode($option['lang']);
 $option['wpdash']=html_entity_decode($option['wpdash']);
 
 $magicable=1;
@@ -700,11 +660,14 @@ $fname=$_POST['magic']['fname'];
 $lname=$_POST['magic']['lname'];
 $lang=$_POST['magic']['lang'];
 
+if ($_POST['$term']!='1'){$magic_error=1;$error_msg[]=__("You need to accept terms and conditions.",'hitsteps-visitor-manager');}
 if ($site==''){$magic_error=1;$error_msg[]=__("Cannot find your website address",'hitsteps-visitor-manager');}
 if ($wname==''){$magic_error=1;$error_msg[]=__("Cannot find your website name",'hitsteps-visitor-manager');}
 if ($email==''){$magic_error=1;$error_msg[]=__("Email cannot be empty",'hitsteps-visitor-manager');}
 if ($password==''){$magic_error=1;$error_msg[]=__("Password cannot be empty",'hitsteps-visitor-manager');}
 if ($nickname==''){$magic_error=1;$error_msg[]=__("Nickname cannot be empty",'hitsteps-visitor-manager');}
+
+
 
 }
 
@@ -958,10 +921,14 @@ if ($lang=='') $lang='en';
 
 
 
+<input type="checkbox" value="1" name="terms" id="terms" /><label for="terms"><?php echo __("I agree <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\">hitsteps's terms</a> and <a href=\"https://www.hitsteps.com/privacy.php\" target=\"_blank\">privacy policy</a> and would like to sign-up and get this website's API key automatically from hitsteps servers.",'hitsteps-visitor-manager');?></label>
+
+<br><br>
+
 <input type="submit" class='button button-primary button-large' style="width:100%; margin-bottom: 8px;  height: 40px;  padding-top:5px; padding-bottom:5px; font-size: 14pt;" value="Sign up & API Key Installation">
 
 
-<small><?php echo __("Sign-up and get this website's API key automatically from hitsteps servers. by clicking this button, you agree <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\">hitsteps's terms.</a>.",'hitsteps-visitor-manager');?></small>
+
 
 
 </div>
@@ -1053,21 +1020,6 @@ if ($lang=='') $lang='en';
 <?php } ?>
 
 
-<p>
-<input type="radio" value="1" name="allowfloat"  <?php if ($option['allowfloat']!=2) echo "checked"; ?> ><?php echo __("Yes",'hitsteps-visitor-manager');?>&nbsp;
-<input type="radio" value="2" name="allowfloat"  <?php if ($option['allowfloat']==2) echo "checked"; ?>><?php echo __("No",'hitsteps-visitor-manager');?>&nbsp;&nbsp;&nbsp;<?php echo __("Enable floating chat widget on ",'hitsteps-visitor-manager');?>
-
-
-<select name="floatpos">
-	<option value="0"<?php if ($option['floatpos']=='0'){ echo " selected"; } ?>><?php echo __("Bottom right",'hitsteps-visitor-manager');?></option>
-	<option value="1"<?php if ($option['floatpos']=='1'){ echo " selected"; } ?>><?php echo __("Bottom left",'hitsteps-visitor-manager');?></option>
-	<option value="2"<?php if ($option['floatpos']=='2'){ echo " selected"; } ?>><?php echo __("Top right",'hitsteps-visitor-manager');?></option>
-	<option value="3"<?php if ($option['floatpos']=='3'){ echo " selected"; } ?>><?php echo __("Top left",'hitsteps-visitor-manager');?></option>
-</select>
-
-
-
-</p>
 
 <div style="  margin: 0;">
 	<input type="submit" value="<?php echo __("Save Changes",'hitsteps-visitor-manager');?>" class='button button-primary' style="width:100%;  height: 50px;  line-height: 50px; " >
@@ -1131,14 +1083,6 @@ if (current_user_can('manage_options')){
 </p>
 
 
-
-<p><input type="radio" value="2" name="chatcompact"  <?php if ($option['chatcompact']==2) echo "checked"; ?> ><?php echo __("Yes",'hitsteps-visitor-manager');?>&nbsp;
-<input type="radio" value="1" name="chatcompact"  <?php if ($option['chatcompact']!=2) echo "checked"; ?>><?php echo __("No",'hitsteps-visitor-manager');?>&nbsp;&nbsp;&nbsp;<?php echo __("Use compact theme for online float widget?",'hitsteps-visitor-manager');?>
-</p>
-
-
-
-
 <p><input type="radio" value="1" name="woo"  <?php if ($option['woo']!=2) echo "checked"; ?> ><?php echo __("Yes",'hitsteps-visitor-manager');?>&nbsp;
 
 <input type="radio" value="2" name="woo"  <?php if ($option['woo']==2) echo "checked"; ?>><?php echo __("No",'hitsteps-visitor-manager');?>&nbsp;&nbsp;&nbsp;<?php echo __("Integrate with WooCommerce: Receive buyer detail and pageview path within \"New Order\" emails",'hitsteps-visitor-manager');?>
@@ -1172,19 +1116,7 @@ if (current_user_can('manage_options')){
 
 
 	
-            <p><label><?php _e('Default Language for visitors chat window:','hitsteps-visitor-manager'); ?>  <select class="widefat" name="lang" >
-				<option value="auto"<?php if ($option['lang']=='auto'){ echo " selected"; } ?>><?php echo __("Auto-Detect",'hitsteps-visitor-manager');?></option>
-				<option value="en"<?php if ($option['lang']=='en'){ echo " selected"; } ?>>English</option>
-				<option value="es"<?php if ($option['lang']=='es'){ echo " selected"; } ?>>Español</option>
-				<option value="fr"<?php if ($option['lang']=='fr'){ echo " selected"; } ?>>Français</option>
-				<option value="de"<?php if ($option['lang']=='de'){ echo " selected"; } ?>>Deutsch</option>
-				<option value="ru"<?php if ($option['lang']=='ru'){ echo " selected"; } ?>>Русский</option>
-				<option value="fa"<?php if ($option['lang']=='fa'){ echo " selected"; } ?>>فارسی</option>
-				<option value="tr"<?php if ($option['lang']=='tr'){ echo " selected"; } ?>>Türkçe</option>
-            </select></label>
 
-
-</p>
 
 
 
@@ -1883,12 +1815,9 @@ if (round($option['allowchat'])==0) $option['allowchat']=1;
 
 if (round($option['woo'])==0) $option['woo']=1;
 
-if (round($option['chatcompact'])==0) $option['chatcompact']=1;
-
 if (round($option['stats'])==0) $option['stats']=2;
 
 if (round($option['wpmap'])==0)  $option['wpmap'] =2;
-if ($option['lang']=='')  $option['lang'] ='auto';
 
 if (round($option['wpdash'])==0) $option['wpdash']=2;
 
@@ -2202,15 +2131,11 @@ if (round($option['igac'])==0) $option['igac']=2;
 
 if (round($option['woo'])==0) $option['woo']=1;
 if (round($option['allowchat'])==0) $option['allowchat']=1;
-if (round($option['allowfloat'])==0) $option['allowfloat']=1;
-if (round($option['floatpos'])==0) $option['floatpos']=0;
-
-if (round($option['chatcompact'])==0) $option['chatcompact']=1;
 
 if (round($option['stats'])==0) $option['stats']=2;
 
 if (round($option['wpmap'])==0) $option['wpmap']=2;
-if ($option['lang']=='') $option['lang']='auto';
+
 if (round($option['wpdash'])==0) $option['wpdash']=2;
 
 return $option;

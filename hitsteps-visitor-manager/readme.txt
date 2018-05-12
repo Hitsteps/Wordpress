@@ -2,9 +2,9 @@
 Contributors: hitsteps
 Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap, uptime, visitors, track, counter, online, visitors online,visitors online, count visitor, google analytics, GeoIP, Geo locations, analytics dashboard, visits, visitor city, visitor country, chart, browser, mobile, tablet, blog, today, yesterday, week, month, wp Statistics, year, post, page, sidebar, summary, feedburner, hits, pagerank, woopra, clicky, statcounter, gosquared, mixpanel, histats, alexa, live visit, diagram, graph, traffic
 Requires at least: 2.7
-Tested up to: 4.9.4
+Tested up to: 4.9.5
 Requires PHP: 5.0
-Stable tag: 5.44
+Stable tag: 5.45
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.hitsteps.com/features.php#price
@@ -259,6 +259,10 @@ Updated tags
 
 = 5.44 =
 * Minor readme update
+
+= 5.45 =
++ GDPR compliancy
+- Removed onlinefloat.php chat widget from plugin and moved it to on-site script
 
 == Frequently Asked Questions ==
 
