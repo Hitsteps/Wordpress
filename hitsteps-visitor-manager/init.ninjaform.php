@@ -167,7 +167,7 @@ public function ninja_forms_register_hitsteps_hook_process(){
 				}
                 if (_hs_uidset==0){
                 var hstc=document.createElement('script');
-				hstc.src='//www.hitsteps.com/api/getUID.php?code=".substr($option['code'],0,32)."';
+				hstc.src='//log.hitsteps.com/api/getUID.php?code=".substr($option['code'],0,32)."';
 				var htssc = document.getElementsByTagName('script')[0];
 				htssc.parentNode.insertBefore(hstc, htssc);        
 				}        
