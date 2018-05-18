@@ -4,7 +4,7 @@ Plugin Name: Hitsteps Ultimate Web Analytics
 Plugin URI: https://www.hitsteps.com/
 Description: Hitsteps is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
 Author: hitsteps
-Version: 5.46
+Version: 5.47
 Author URI: http://www.hitsteps.com/
 */ 
 
@@ -921,7 +921,7 @@ if ($lang=='') $lang='en';
 
 
 
-<input type="checkbox" value="1" name="terms" id="terms" /><label for="terms"><?php echo __("I agree <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\">hitsteps's terms</a> and <a href=\"https://www.hitsteps.com/privacy.php\" target=\"_blank\">privacy policy</a> and would like to sign-up and get this website's API key automatically from hitsteps servers.",'hitsteps-visitor-manager');?></label>
+<input type="checkbox" value="1" name="terms" id="terms" /><label for="terms"><?php echo __("I agree <a href=\"https://www.hitsteps.com/terms.php\" target=\"_blank\">hitsteps's terms</a> and <a href=\"https://www.hitsteps.com/privacy.php\" target=\"_blank\">privacy policy</a>, I agree to allow hitsteps to send me emails regarding my website and my service and would like to sign-up for hitsteps account and get this website's API key automatically from hitsteps servers.",'hitsteps-visitor-manager');?></label>
 
 <br><br>
 
