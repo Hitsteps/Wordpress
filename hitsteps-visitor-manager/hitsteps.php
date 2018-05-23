@@ -4,7 +4,7 @@ Plugin Name: Hitsteps Ultimate Web Analytics
 Plugin URI: https://www.hitsteps.com/
 Description: Hitsteps is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
 Author: hitsteps
-Version: 5.47
+Version: 5.50
 Author URI: http://www.hitsteps.com/
 */ 
 
@@ -63,7 +63,7 @@ $htssl='';
   }
   }
 
-?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.44 - DO NOT CHANGE --><?php
+?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.48 - DO NOT CHANGE --><?php
 
 
 if (is_search()){
@@ -1698,7 +1698,7 @@ $htssl=" - SSL";
                         echo $before_title . $title . $after_title; ?>
 
 <div style="text-align: center;" class="hs-wordpress-chat-placeholder">
-<!-- HITSTEPS ONLINE SUPPORT CODE v5.44 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
+<!-- HITSTEPS ONLINE SUPPORT CODE v5.48 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
 var hschatcs='www.';if (document.location.protocol=='https:') hschatcs='';hschatcsrc=document.location.protocol+'//log.hitsteps.com/online.php?code=<?php echo $option['code']; ?>&lang=<?php echo urlencode($instance['lang']); ?>&img=<?php echo urlencode($instance['wd_img']); ?>&off=<?php echo urlencode($instance['wd_off']); ?>';
 document.write('<scri'+'pt type="text/javascript" src="'+hschatcsrc+'"></scr'+'ipt>');
 </script></div><!-- HITSTEPS ONLINE SUPPORT CODE - DO NOT CHANGE -->

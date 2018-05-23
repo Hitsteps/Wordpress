@@ -6,6 +6,7 @@ add_filter( 'woocommerce_pay_order_after_submit', 'add_hitsteps_analytics_woo_ch
 
 $is_hs_checkout_uid_shown=0;
  function add_hitsteps_analytics_woo_checkout_field( $fields ) {
+ global $is_hs_checkout_uid_shown;
  if ($is_hs_checkout_uid_shown==0){
  	$is_hs_checkout_uid_shown=1;
 $option=get_hst_conf();

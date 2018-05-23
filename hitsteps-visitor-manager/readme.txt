@@ -4,7 +4,7 @@ Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap,
 Requires at least: 2.7
 Tested up to: 4.9.5
 Requires PHP: 5.0
-Stable tag: 5.47
+Stable tag: 5.50
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.hitsteps.com/features.php#price
@@ -263,6 +263,12 @@ Updated tags
 = 5.45 =
 + GDPR compliancy
 - Removed onlinefloat.php chat widget from plugin and moved it to on-site script
+
+= 5.49 =
+* Minor changes related to GDPR compliancy
+
+= 5.50 =
+* Woocommerce checkout Notice message fix where it would show a PHP Notice message for undefined variable.
 
 == Frequently Asked Questions ==
 
