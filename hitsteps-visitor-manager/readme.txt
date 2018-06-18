@@ -4,7 +4,7 @@ Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap,
 Requires at least: 2.7
 Tested up to: 4.9.5
 Requires PHP: 5.0
-Stable tag: 5.50
+Stable tag: 5.53
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.hitsteps.com/features.php#price
@@ -269,6 +269,15 @@ Updated tags
 
 = 5.50 =
 * Woocommerce checkout Notice message fix where it would show a PHP Notice message for undefined variable.
+
+= 5.51 =
+* Minor fix for wp3.2.php dashboard widget for Safari 10 browser users
+
+= 5.52 =
++ Add additional servers to API call for email data providers in order to reduce chance of error #98.
+
+= 5.53 =
++ PHP 7.2 compatible
 
 == Frequently Asked Questions ==
 
