@@ -1,6 +1,6 @@
 <?php
 
-$hitsteps_public_web_api_receiver="http://hitsteps.com/api/query.php";
+$hitsteps_public_web_api_receiver="https://hitsteps.com/api/query.php";
 $hitsteps_public_web_api_receiver1="http://89.163.148.18/api/query.php";
 $hitsteps_public_web_api_receiver2="http://62.210.189.72/api/query.php";
 

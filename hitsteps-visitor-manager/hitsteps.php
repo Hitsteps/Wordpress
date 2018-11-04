@@ -4,7 +4,7 @@ Plugin Name: Hitsteps Ultimate Web Analytics
 Plugin URI: https://www.hitsteps.com/
 Description: Hitsteps is a powerful real time website visitor manager, it allow you to view and interact with your visitors in real time.
 Author: hitsteps
-Version: 5.53
+Version: 5.58
 Author URI: http://www.hitsteps.com/
 */ 
 
@@ -63,7 +63,7 @@ $htssl='';
   }
   }
 
-?><!-- HITSTEPS TRACKING CODE<?php echo $htssl; ?> v5.51 - DO NOT CHANGE --><?php
+?><!-- HITSTEPS SNIPPET CODE<?php echo $htssl; ?> v5.57 - DO NOT CHANGE --><?php
 
 
 if (is_search()){
@@ -213,15 +213,12 @@ $keyword[]='woocommerce analytics';
 $keyword[]='web statistics';
 $keyword[]='joomla analytics';
 $keyword[]='wordpress blog analytics';
-$keyword[]='joomla cms analytics';
 $keyword[]='how track web site visitors';
 $keyword[]='analytics';
 $keyword[]='website traffic analytics';
 $keyword[]='website traffic tracker';
-$keyword[]='live chat';
-$keyword[]='heatmap';
 
-$kwid=mt_rand(0,count($keyword));
+$kwid=mt_rand(0,count($keyword)-1);
 
 $stats_widget="";
 
@@ -1698,7 +1695,7 @@ $htssl=" - SSL";
                         echo $before_title . $title . $after_title; ?>
 
 <div style="text-align: center;" class="hs-wordpress-chat-placeholder">
-<!-- HITSTEPS ONLINE SUPPORT CODE v5.51 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
+<!-- HITSTEPS ONLINE SUPPORT CODE v5.57 - DO NOT CHANGE --><div id="hs-live-chat-pos"><script type="text/javascript">
 var hschatcs='www.';if (document.location.protocol=='https:') hschatcs='';hschatcsrc=document.location.protocol+'//log.hitsteps.com/online.php?code=<?php echo $option['code']; ?>&lang=<?php echo urlencode($instance['lang']); ?>&img=<?php echo urlencode($instance['wd_img']); ?>&off=<?php echo urlencode($instance['wd_off']); ?>';
 document.write('<scri'+'pt type="text/javascript" src="'+hschatcsrc+'"></scr'+'ipt>');
 </script></div><!-- HITSTEPS ONLINE SUPPORT CODE - DO NOT CHANGE -->

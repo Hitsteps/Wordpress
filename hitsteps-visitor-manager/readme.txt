@@ -1,10 +1,10 @@
 === Hitsteps Ultimate Web Analytics ===
-Contributors: hitsteps
-Tags: analytics, stats, statistics, chat, live, stat, visitor, monitor, heatmap, uptime, visitors, track, counter, online, visitors online,visitors online, count visitor, google analytics, GeoIP, Geo locations, analytics dashboard, visits, visitor city, visitor country, chart, browser, mobile, tablet, blog, today, yesterday, week, month, wp Statistics, year, post, page, sidebar, summary, feedburner, hits, pagerank, woopra, clicky, statcounter, gosquared, mixpanel, histats, alexa, live visit, diagram, graph, traffic
+Contributors: Hitsteps
+Tags: web analytics, statistics, chat, heatmap, uptime, live, stat, visitor, monitor, visitors, track, counter, online, visitors online, count visitor, analytics dashboard, visits, visitor city, visitor country, chart, wp Statistics, hits, live visit, graph, traffic
 Requires at least: 2.7
-Tested up to: 4.9.5
+Tested up to: 5.0
 Requires PHP: 5.0
-Stable tag: 5.53
+Stable tag: 5.58
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.hitsteps.com/features.php#price
@@ -13,20 +13,58 @@ Hitsteps Analytics is a powerful real time website visitor manager, it allow you
 
 == Description ==
 
-Hitsteps Analytics is a powerful real time visitor management, heatmap and live chat app. It provides Website Uptime monitoring too.
-It allows you to view your visitors stream and follow each visitors to know more about each pages they see. It allow you to engage with your visitors using live chat tool. You'll be provided with detailed information about each visitor such as geolocation, their first visit on your site, referer to your site, their browser, OS and device and much more!
-Advantages over Google analytics includes but not limited to Detailed information of each and all visitors, ability to engage with visitors using live chat tool, heatmap for each pages, carefully pre-generated and categorized reports, real-time analytics on all reports and much more...
+You might have a great website, shop or blog. so do your competitor. Get insight and competitor advantage by using a detailed analytics tool such as Hitsteps.
 
+Hitsteps Analytics is a powerful real time visitor statistics, heatmap and live chat app with online visitors. It provides Website Uptime monitoring too.
+It allows you to view your visitors stream and follow each visitors to know more about each pages they see. It allow you to engage with your visitors using live chat tool. You'll be provided with detailed charts and information about each visitor such as geo location (estimated city, country and region via IP address), their first visit on your site, referer to your site, their browser, OS and device and much more!
+
+
+= Hitsteps offer following features: =
+
+* Unique live dashboard: which show live stream of your visitors
+* Visitor's name tracking: their registration name can be assigned to their profile
+* View visitors in map: Conquer the globe by knowing which geographic area is your weakness
+* Live chat: Chat with visitors feature and live support button
+* Realtime visitors list and pages they visited: full detailed history of previous pages they've seen
+* Audible New Visitor Notification: Hear what's happening
+* Top referrals and top keywords: Which website and which search keywords are sending you visitors?
+* Top exit and entry page reporting: Which page cause your visitors to quit your website?
+* Daily email reports on site performance: Sit back and receive your daily, weekly or monthly reports
+* Geo-location tracking: Our partner companies provide you with city, ISP and other relevant data about each visitor's geo-location.
+* Go back in time with recent visitor's search feature: All visitors pageviews are archived for your future investigation.
+* Secure HTTPS tracking: If you are using HTTPS, so do we!
+* Downloads & external Links tracking: Smart detection of external links and download links
+* Goals and campaigns: Trigger goal reports
+* iPhone, iPad and Android supported: Cross browser and cross device support
+* Invisible tracking: No visible tracking icon or text on your website.
+* Multiple users and multiple sites support: Let your agents and employees handle your analytics reports.
+* Add-on for Firefox and Google Chrome: Keep track of your website visitors even when you are not in your dashboard.
+
+= Visitor profile and aliasing =
 Visitor aliasing enables you to detect if same (registered user) login back to your website again using another device (another pc, mobile or tablet). What if a user click on your ads on pc and register to your website but don't make any purchase, however this same user login back to your website from another device and complete purchase? Most web analytics would tell you he is a new user! Hitsteps detect if same user login again, and merge new browsing session with previous session making a unique timeline. We also identify user in Hitsteps with same nickname they used to register in your website to make it easier for you to identify it.
 
-New generation heatmap, Page Analysis: It allows you to view exactly which item in your page, menu, sub menu, carousels or slideshows is attracting and getting how many clicks. View some screenshots in screenshot tab of this plugin.
+= Heatmap and Page Analysis =
+New generations of heatmap, Page Analysis: It allows you to visualize your website traffic to view exactly which item in your page, menu, sub menu, carousels or slideshows is attracting and getting how many clicks. View some screenshots in screenshot tab of this plugin.
 
-Integration with WooCommerce as Analytics allows you to receive your customers detail and pageview path within "New Order" emails
-Contact form analytics feature of it also integrate analytics with Jetpack Contact form, Gravity Forms, Contact Form 7 and Ninja Forms plugins and allow you to know more of your visitors on their incoming emails.
+= E-Commerce Ready =
+Not only for blogs and websites, Integration with WooCommerce as Analytics allows you to receive your customers detail and pageview path within "New Order" emails in your ecommerce website. Contact form analytics feature of it also integrate analytics with Jetpack Contact form, Gravity Forms, Contact Form 7 and Ninja Forms plugins and allow you to know more of your visitors on their incoming emails.
 
-Uptime monitoring allows you to receive call, sms or email whenever your website, part of your website or server go down.
+= Uptime Monitoring =
+Uptime monitoring allows you to receive call, sms or email whenever your website, part of your website or server go down. Utilizing Amazon AWS Web services, we provide monitoring from various locations in the world for your servers. Monitors include scheduled ping, MySQL database checks, ssh login check and HTTP and HTTPS refresh (when they contain a specified keyword). Furthermore it protects your google SEO pagerank and alexa site rank by utilizing CloudFlare DNS to automatically divert your website to your second server in (DNS failover) If your main website server go down, maintaining your visitor stats.
 
-Read More:
+= Hitsteps have following advantage over similar services: =
+* Compared to Google Analytics, Spam and non-human tracking protection, Hitsteps offers detailed information of each and all visitors, ability to engage with visitors using live chat tool, builtin heatmaps and uptime monitoring, desktop notification for new visitors or visitors based on specified parameters (location, page view, referral, ...)
+* Compared to Piwik, Hitsteps offers uptime monitoring, ability to track your visitors without slowing down your server (applies to self-hosted piwik), alerts and notification about visitors actions on your browser and live chat with your visitors.
+* Compared to Statcounter, hitsteps analytics offers Spam and non-human tracking protection on your stat, Hitsteps offers heapmap, live chat with visitors, label counter and goal & campaign tracking and uptime monitoring
+* Compared to Clicky, Hitsteps offers auto tagging visitors, Page analysis heatmap, live chat with visitor, visitor labeling and live chat
+* Compared to GoSquared, Hitsteps offers Spam and non-human tracking protection, Hitsteps offers realtime website and server uptime monitoring, local search track, data export as CSV and PDF.
+* Compared to Mixpanel, Hitsteps offers uptime monitoring, heatmap and page analysis, bot protection and live chat feature.
+* Compared to HiStats, Hit steps offers Visitor goal and campaign tracking, auto visitor labeling and label tracking, heatmaps and live chat.
+* Compared to Woopra, Hitsteps offers built-in tracking video and Youtube videos, heatmap and page analyzation tool, live chat tool.
+* Compared to ChartBeat, Hitsteps offer free plan, detailed visitor path, goal and campaign tracking, uptime monitoring, heatmap, live support service for your visitors by you, spam and bot protection, visitor labeling and label tracking.
+* Compared to Slimstat and Wassup, Hitsteps track your visitors without slowing down your website database, remove spam, bots and non-human visitors from your report, allows you to create dynamic tags and filter visitors automatically, provide heatmap and live chat, and monitor your website uptime.
+
+= Read More: =
 http://www.hitsteps.com/features.php
 
 == Installation ==
@@ -40,9 +78,11 @@ http://www.hitsteps.com/features.php
 == Screenshots ==
 
 1. Hitsteps dashboard, see everything at a glance.
-2. Revolutionary Heatmap and Page Analysis. It shows exactly which item in each of your pages get how many clicks.
+2. Revolutionary Page Analysis. It shows exactly which item in each of your pages get how many clicks.
 3. Woocommerce New Order Email (similiar integration for Contact form 7, Ninja Forms and Gravity Forms), it show details of visitor who order from you or sent you an email including pages they visit before sending email.
 4. Live chat with visitors
+5. Uptime reporting
+5. Page heatmaps
 
 == Changelog ==
 
@@ -278,6 +318,16 @@ Updated tags
 
 = 5.53 =
 + PHP 7.2 compatible
+
+= 5.55 =
++ Seasonal maintenance update
+
+= 5.57 =
++ Upgrade API Payload URL to SSL
+
+= 5.58 =
++ Update assets and product banners
+
 
 == Frequently Asked Questions ==
 
